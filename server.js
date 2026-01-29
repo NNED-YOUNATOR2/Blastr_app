@@ -9,9 +9,14 @@ dotenv.config({ path: "./.env" });
 
 // Connect database
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect(process.env.MONGO_URI,
+    {
+      serverSelectionTimeoutMS:6000,
+      connectTimeoutMS: 60000,
+      family: 4
+    })
   .then(() => console.log("Database connected..."))
-  .catch((error) => console.log("An error occured..."));
+  .catch((error) => console.log(error));
 
 // Serve client folder
 app.use(express.static(path.join(__dirname, "client", "build")));
