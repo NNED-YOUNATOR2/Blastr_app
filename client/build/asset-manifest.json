@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06e10df7.css",
+    "main.js": "/static/js/main.dc167af6.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Sender Call Request Tone.mp3": "/static/media/Sender Call Request Tone.aba272201737dad729b2.mp3",
+    "static/media/chat-bg-light.jpg": "/static/media/chat-bg-light.051c1100eb278364c6de.jpg",
+    "static/media/chat-bg-dark.jpg": "/static/media/chat-bg-dark.f7c955a3b397252ee42a.jpg",
+    "static/media/Receiver Call Request Tone.mp3": "/static/media/Receiver Call Request Tone.2d95ee6ecc0bc1a425a6.mp3",
+    "index.html": "/index.html",
+    "main.06e10df7.css.map": "/static/css/main.06e10df7.css.map",
+    "main.dc167af6.js.map": "/static/js/main.dc167af6.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06e10df7.css",
+    "static/js/main.dc167af6.js"
+  ]
+}
